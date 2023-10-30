@@ -1,13 +1,45 @@
+/* Estilos para o corpo da página */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+margin: 0;
+padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Estilos para o cabeçalho da página */
+header {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+}
+
+/* Estilos para a descrição do site */
+.description {
+font-size: 18px;
+margin: 20px;
+}
+
+/* Estilos para o link do favicon */
+#favicon-link {
+text-decoration: none;
+color: #0074d9;
+}
+
+/* Estilos para o botão de instalação em dispositivos móveis */
+.install-button {
+background-color: #0074d9;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Estilos para o contêiner do aplicativo React */
+#root {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 80vh;
 }
